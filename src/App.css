@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(51, 50, 50);
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: white solix 10px;
+}
+
+.itemLight {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 100%;
+  background-color: grey;
+  cursor: pointer;
+  
+}
+
+.itemLight.red {
+  background-color: red;
+
+}
+.itemLight.yellow {
+  background-color: yellow;
+
+}
+.itemLight.green {
+  background-color: Green;
+
+}
